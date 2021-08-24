@@ -1,0 +1,26 @@
+@import "variable","mobile", "card";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    
+    font-family: "inter", "sans-serif";
+    background-color: $Very-dark-blue;
+}
+
+.container{
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

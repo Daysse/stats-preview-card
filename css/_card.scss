@@ -1,0 +1,96 @@
+.card{
+    background-color: $Dark-desaturated-blue;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 1rem;
+    max-width: 1140px;
+    margin: 5%;
+}
+.card_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6%;
+}
+
+h1{
+    color: $White;
+    font-size: 3.4rem;
+    margin-bottom: 2.8rem;
+    line-height: 2;
+    letter-spacing: 0.6px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.5px;
+}
+
+span{
+    color: $Soft-violet;
+}
+
+.stats_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stats_number{
+    color:$White;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.stats_title{
+    color: hsla(0, 0%, 100%, 0.6) ;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-family: "Lexend Deca", "sans-serif";
+    margin-top: 0.8rem;
+}
+
+.img_desktop{
+    width: 559px;
+    height: 100%;
+    mix-blend-mode: multiply;
+    border-radius: 0 1rem 1rem 0;
+    
+    
+}
+.pink{
+    background-color: $Soft-violet;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.card_right{
+    background-color: $Soft-violet;
+    position: relative;
+    border-radius: 0 1rem 1rem 0;
+}
+
+
+
+
+
+
+.img_mobile{
+    display: none;
+}
